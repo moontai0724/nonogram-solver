@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>Hi! I am the home page.</main>
+  <h1 class="text-3xl font-bold underline">Hi! I am the home page.</h1>
 </template>
