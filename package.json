@@ -13,8 +13,8 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts}": "eslint --cache --fix",
-    "src/**/*.**": "prettier --check --ignore-unknown --write"
+    "./**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts}": "eslint --cache --fix",
+    "./**/*.**": "prettier --check --ignore-unknown --write"
   },
   "dependencies": {
     "pinia": "^2.0.28",
